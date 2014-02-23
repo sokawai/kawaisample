@@ -1,0 +1,161 @@
+<!doctype html> 
+<html>
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Ruda:900' rel='stylesheet' type='text/css'>
+	<style>
+	/* normalize.css 2011-06-23T00:50 UTC //github.com/jonathantneal/normalize.css */
+    article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}html{cursor:default;font-size:100%;overflow-y:scroll;-webkit-tap-highlight-color:transparent;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body,form,input,button,select,textarea{font-size:100%;margin:0}a,a:active,a:hover{outline:none}a:focus{outline:thin dotted}abbr{_border-bottom:expression(this.title ? '1px dotted':'none')}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}mark{background:#FF0;color:#000}pre,code,kbd,samp{font-family:monospace,monospace;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:'';content:none}small,sub,sup{font-size:75%}sub,sup{line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}nav ul{list-style:none}audio[controls],canvas,video{display:inline-block;*display:inline}audio{display:none;_display:expression(this.controls ? 'inline':'none');*zoom:1}audio[controls]{display:inline-block}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){ overflow:hidden}legend{*margin-left:-7px}button,input,select,textarea{vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal;_overflow:expression(this.type == 'button|reset|submit' ? 'visible':'')}button,input[type="button"],input[type="reset"],input[type="submit"]{overflow:visible;-webkit-appearance:button}input[type="checkbox"],input[type="radio"]{box-sizing:border-box}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-decoration{ -webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
+	body {
+		font-family: "MarkWebPro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-weight: 100;
+	}
+	img.logo {
+		margin: 0 auto;
+		display: block;
+	}
+	h1{
+		font-size: 32px;
+		font-family: "MarkWebPro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-weight: 100;
+		margin: 0 auto;
+		display: block;
+
+	}
+	h2 {
+		font-family: "Tahoma", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 28px;
+		font-weight: lighter;
+		text-transform: uppercase;
+		color: #F5FAF8;
+	}
+	h3 {
+		font-family: "tahoma", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 28px;
+		font-weight: lighter;
+		text-transform: uppercase;
+		color: #454545;
+	}
+	p{
+		line-height: 1.4;
+		color: #454545;
+		font-family: "Helvetica Neue";
+		font-weight: "bold"
+	}
+	img.profile {
+		padding: 5px;
+		margin:10px;
+		border: 2px dotted white;
+		border-radius: 50%; 
+		box-shadow: 0 0 5x grey;
+		width: 200px;
+		height: 200px;
+		float: left;
+	}
+	img.favourite {
+		padding: 10px;
+		margin: 0 auto;
+		border: 1px dotted white;
+		border-radius: 50%; 
+		box-shadow: 0 1x grey;
+		width: 200px;
+		height: 200px;
+	}
+	section.banner {
+		background-image: url(images/background4.png);
+		padding-top: 200px;
+		padding-bottom: 230px;
+		text-align: center;
+		background-attachment: fixed;
+	}
+	section.about h2{
+		color: #636967;
+	}
+	section.about {
+		background: url("images/cream_pixels.png");
+		padding-top: 100px;
+		padding-bottom: 230px;
+		text-align: center;
+		color: #454545;
+		overflow: hidden;
+	}
+	section.favourite {
+		background: url("images/wild_flowers.png");
+		color:#FFFFFF;
+		text-align: center;
+		padding-top: 100px;
+		padding-bottom: 230px;
+	}
+	section.contact {
+		background: url("images/cream_pixels.png");
+		color:#454545;
+		text-align: center;
+		padding-top: 100px;
+		padding-bottom: 230px;
+	}
+	.menu {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		text-align: center;
+		text-transform: uppercase;
+		border-bottom: 1px solid #FFFFFF;
+		background: #FFFFFF;
+	}
+	.menu li{
+		display: inline-block;
+		padding: 20px 35px;
+	}
+	.menu a{
+		text-decoration: none;
+		color: #454545;
+		text-transform: uppercase;
+		font-family: 'tahoma';
+	}
+	.menu {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+
+	}
+	section.box {
+		padding: 150px 230px;
+		background-attachment: fixed;
+	}
+	</style>
+  <title>Kawai So</title>
+
+</head>
+<body>
+	<ul class="menu">
+		<li><a href="#home">Home</a></li>
+		<li><a href="#about">About</a></li>	
+		<li><a href="#favourites">Favourites</a></li>
+		<li><a href="#contact">Contact</a></li>
+	</ul>
+	<section id="home" class="banner">
+		<IMG SRC="logo.png" class="logo"> 
+		<h2>kawai so</h1>
+	</section>
+	<section id="about" class="about box">
+		<h3>about</h3>
+		<IMG SRC="http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/5/005/03c/02d/2bd224d.jpg" class="profile">
+		<p>Lemon drops fruitcake I love. Caramels jujubes sesame snaps candy canes icing marzipan. Marzipan tiramisu wafer. I love candy canes cotton candy jelly-o applicake liquorice chupa chups fruitcake.</p>
+	</section>
+	<section id="favourites" class="favourite box">
+		<h3>my fav things</h2>
+		<p>Here are a few things I really love</p>
+		<p>
+		<img src="http://assets.dogtime.com/asset/image/4f9664f6eadf725ead000134/square_200_Pug-puppy-3-picture.jpg" class="favourite">
+		<img src="http://www.tehcute.com/pics/201109/corgi-puppy-on-a-couch.jpg" class="favourite">
+		<img src="images/puppy.png" class="favourite">
+	</section>
+	<section id="contact" class="contact box">
+		<h3>contact</h3>
+		<p><a href="http://facebook.com/kawai.so" target="_blank"><IMG SRC="images/facebook.png" width=50 height=50></a>
+		<a href="http://www.linkedin.com/in/kawaiso" target="blank"><img src="images/linkedin.png" width=50 height=50></a>
+		<a href="http://twitter.com" target="blank"><img src="images/twitter.png" width=50 height=50></a></p>
+	</section>
+	
+</body>
+</html>
